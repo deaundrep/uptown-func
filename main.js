@@ -1,7 +1,43 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const call = function(name){
+  name()
+}
 
+const callTwice = function(name){
+name()
+name()
+}
+
+
+const callXTimes = function(name, count){
+  for (let i = 0; i < count; i ++) {
+    name();
+}
+}
+
+const returnFromFunc = function(name){
+  return name()
+}
+
+const modifyString = function (str,name){
+  return name(str)
+
+
+}
+
+const modifyNumber = function (num,name){
+  return name(num)
+}
+
+const modifyAnything = function (name1, name){
+return name(name1)
+}
+
+const twoFuncs = function (name1,name2){
+  return 
+}
 
 
 

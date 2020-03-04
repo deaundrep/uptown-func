@@ -8,9 +8,7 @@ const {
   modifyAnything,
   twoFuncs,
   threeFuncs,
-  twoValues,
-  twoValuesRTL,
-} = require('./main.js')
+  twoValues,} = require('./main.js')
 
 describe('call', () => {
   it(`calls the given function`, () => {
